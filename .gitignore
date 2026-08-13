@@ -1,0 +1,29 @@
+﻿# Credentials - NEVER commit
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+frontend/dist/
+build/
+coverage/
+
+# Databases
+backend/db/*.db.bin
+*.db.bin
+*.sqlite
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temp
+*.log
+test_granite.js
